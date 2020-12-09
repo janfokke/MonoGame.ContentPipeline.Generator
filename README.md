@@ -3,6 +3,8 @@ A utility to generate code with the paths to content files.
 
 # Usage
 
+## Run utility
+
 Run `MonoGame.ContentPipeline.Generator` with the following arguments
 
 --output "\<Full path to output cs file\>" 
@@ -13,8 +15,7 @@ Run `MonoGame.ContentPipeline.Generator` with the following arguments
 
 I recommend to run the tool from [VisualStudio external tools](https://docs.microsoft.com/en-us/visualstudio/ide/managing-external-tools?view=vs-2019)
 
-
-# Example output
+## Example output
 ```cs
 namespace YourNameSpace
 {
@@ -32,3 +33,9 @@ namespace YourNameSpace
     }
 }
 ```
+
+## Load content
+```cs
+contentManager.Load<SpriteFont>(ContentPaths.fonts.default_font);
+```
+
