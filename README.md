@@ -7,11 +7,11 @@ A utility to generate code with the paths to content files.
 
 Run `MonoGame.ContentPipeline.Generator` with the following arguments
 
---output "\<Full path to output cs file\>" 
+`--output "\<Full path to output cs file\>"`
 
---content "\<Full path to Content.mgcb\>" 
+`--content "\<Full path to Content.mgcb\>"`
 
---namespace "\<The namespace of the content file\>"
+`--namespace "\<The namespace of the content file\>"`
 
 I recommend to run the tool from [VisualStudio external tools](https://docs.microsoft.com/en-us/visualstudio/ide/managing-external-tools?view=vs-2019)
 
