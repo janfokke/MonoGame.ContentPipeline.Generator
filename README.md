@@ -14,7 +14,7 @@ Run `MonoGame.ContentPipeline.Generator` with the following arguments
 I recommend to run the tool from [VisualStudio external tools](https://docs.microsoft.com/en-us/visualstudio/ide/managing-external-tools?view=vs-2019)
 
 
-#example output
+# Example output
 ```cs
 namespace YourNameSpace
 {
