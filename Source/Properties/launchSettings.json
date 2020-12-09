@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "PipelineContentGenerator": {
+      "commandName": "Project",
+      "commandLineArgs":
+        "--output \"C:\\Users\\JanFokke\\source\\repos\\LuneShire\\LuneShire\\ContentPaths.cs\" --content \"C:\\Users\\JanFokke\\source\\repos\\LuneShire\\LuneShire.Content\\Content.mgcb\" --namespace \"LuneShire.GeneratedContent\""
+    }
+  }
+}
